@@ -43,9 +43,14 @@
     color: white;
     display: inline;
     justify-content: space-between;
-    padding: 20px;
-    padding-top: 100px;
+    margin: 20px;
+    margin-top: 100px;
     margin-top: 100px;
     align-items: center;
+  }
+
+  .nav-bar ul li a:hover{
+    color: #FFA800;
+    transition: .2s;
   }
 

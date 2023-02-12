@@ -1,8 +1,23 @@
 
 import {Link} from "react-router-dom";
 import './NavBar.css';
+import { useState } from "react";
 
 export default function Navbar(){
+
+    const [state,setState] = useState('/Login');
+    const [name,setName] = useState('Login');
+
+    const change = () =>{
+        if(state === '/Login'){
+            setState('/');
+            setName('Sign Up');
+        }
+        else{
+            setState('/Login');
+            setName('Login');
+        }
+    }
 
    return(
     
@@ -12,8 +27,8 @@ export default function Navbar(){
                 <span className='title'>NAMEGOESHERE</span>
             </li>
             <li>
-                <Link to='/Discover'>Discover</Link>
-               <Link to='/Login'>Log In</Link>
+               <Link to='/Discover'>Discover</Link>
+               <Link to = {state} onClick={change} >{name}</Link>
             </li>
         </ul>
     </nav>
