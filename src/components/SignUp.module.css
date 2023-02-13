@@ -1,0 +1,98 @@
+.back-Body {
+  background-color: #1e1e1e;
+  display: grid;
+  height: fit-content;
+  width: fit-content;
+  padding: 3rem 3rem 4rem 3rem;
+  justify-content: space-between;
+  border-radius: 40px;
+}
+
+.label {
+  font-size: 15px;
+  margin-top: 25px;
+  margin-left: 4px;
+  margin-bottom: 3px;
+  color: white;
+}
+
+.label-head {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 4px;
+  margin-left: 3px;
+  color: white;
+  align-items: center;
+}
+
+#welcome {
+  margin-left: 87px;
+}
+
+.text-box {
+  width: 330px;
+  height: 40px;
+  border-radius: 7px;
+  border: 0px;
+  font-family: "Poppins", sans-serif;
+  font-size: medium;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.sbmt-btn {
+  height: 40px;
+  width: 330px;
+  border-radius: 7px;
+  border: 0px;
+  background-color: #ffa800;
+  color: white;
+  font-size: 24px;
+  font-weight: 450;
+  margin-top: 38px;
+}
+
+.sbmt-btn:hover {
+  background-color: #f0a000;
+  transition: 0.2s;
+}
+
+#signupformdiv {
+  margin: 9rem 0rem 0rem 124px;
+  justify-content: space-between;
+}
+
+#loginformdiv {
+  margin-left: 38rem;
+  margin-top: -20rem;
+}
+
+.desc-align {
+  margin-top: -530px;
+  margin-left: 730px;
+}
+
+.journal {
+  font-size: 72px;
+  font-weight: 400px;
+  color: white;
+}
+
+.about {
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: 200px;
+  color: white;
+}
+
+.Paper-plane {
+  margin-top: 14rem;
+  display: inline-flex;
+}
+
+.forgot {
+  text-decoration: none;
+  color: #8286fb;
+  margin-top: 30px;
+  margin-left: 100px;
+}
