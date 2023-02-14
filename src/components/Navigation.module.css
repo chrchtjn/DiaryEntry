@@ -1,0 +1,10 @@
+
+
+.container{
+    height: 100%;
+    width: 500px;
+    background-color: #2F303A;
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+}
