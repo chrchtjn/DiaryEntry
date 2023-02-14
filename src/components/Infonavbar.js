@@ -1,11 +1,11 @@
-import './Infonavbar.css';
+import styles from './Infonavbar.module.css';
 
 export default function Infonavbar(){
     return(
-        <nav className="infonavbar">
+        <nav className={styles["infonavbar"]}>
               
-            <ul className='out'>
-                 <ul className='in'>
+            <ul className={styles['out']}>
+                 <ul className={styles['in']}>
                         <li>
                             14th November 2023
                         </li>
