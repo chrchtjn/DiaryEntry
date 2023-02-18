@@ -1,0 +1,27 @@
+.container{
+    display: inline-flex;
+    width: fit-content;
+    height: 45px;
+    border-radius: 30px;
+    font-size: 0px;
+    padding: 0px 11px 0px 8px;
+    text-align: center;
+    background-color: white;
+    overflow: hidden;  
+    align-items: center;
+    transition: font-size .2s;
+    align-self: right;
+    border: solid;
+    border-width: 0.2px ;
+
+}
+
+.container:hover{
+    font-size: 18px;
+    background-color: rgb(255, 166, 0);
+}
+
+img{
+
+    padding-left: 2px;
+}
