@@ -1,0 +1,24 @@
+.textContainer{
+    background-color: red;
+    margin-left: 586px;
+
+    
+    
+}
+
+#textArea{
+    position: absolute;
+    font-family: Menlo;
+    font-size: 12px;
+    /* width: 1 rem;
+    height: 1 rem; */
+    border: none;
+    outline: none;
+    padding: 15px;
+    padding-bottom: 35px;
+    background: white;
+    resize: none;
+    margin-top: 170px;
+   
+    
+}

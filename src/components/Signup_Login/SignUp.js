@@ -1,5 +1,5 @@
 import styles from "./SignUp.module.css";
-import Man from "../images/man.png";
+import Man from "../../images/man.png";
 
 export default function Signup() {
   return (

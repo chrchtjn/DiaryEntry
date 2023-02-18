@@ -1,21 +1,27 @@
 import styles from "./App.module.css";
-import Navbar from "./components/NavBar";
-import SignUp from "./components/SignUp";
-import LogIn from "./components/LogIn";
+import Navbar from "./components/Signup_Login/NavBar";
+import SignUp from "./components/Signup_Login/SignUp";
+import LogIn from "./components/Signup_Login/LogIn";
+import LeftNavigation  from "./components/LeftPane/LeftNavigation";
+import WorkSpace from "./components/WorkSpace/WorkSpace";
 import { Route, Routes } from "react-router-dom";
-import Navigation from "./components/Navigation";
+
 
 
 function App() {
   return (
-    <div className={styles["all"]}>
-      {/* <Navigation/> */}
-      <Navbar />
-      <Routes>
-        <Route exact path="/" element={<SignUp />} />
-        <Route exact path="/Login" element={<LogIn />} />
-      </Routes>
-    </div>
+<>
+    <LeftNavigation/>
+    <WorkSpace/></>
+  //  <div className={styles["checkIn"]}>
+    
+  //        <Navbar />
+  //         <Routes>
+  //            <Route exact path="/" element={<SignUp />} />
+  //            <Route exact path="/Login" element={<LogIn />} />
+  //         </Routes>
+  //   </div> 
+    
   );
 }
 
