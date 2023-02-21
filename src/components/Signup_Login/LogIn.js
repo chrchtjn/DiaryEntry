@@ -1,5 +1,5 @@
 import styles from "./LogIn.module.css";
-import PaperPlane from "../images/Paperplane.png";
+import PaperPlane from "../../images/Paperplane.png";
 
 export default function Login() {
   return (

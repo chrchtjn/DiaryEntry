@@ -1,0 +1,26 @@
+.listContainer{
+
+    display: flex;
+    justify-content: space-between;
+    background-color: #d9d9d9;
+    align-items: center;
+    padding: 30px 20px 30px 20px ;
+    border: .5px solid black;
+}
+
+.listContainer:hover{
+    background-color: #ffffff;
+}
+
+.labels{
+    padding: 2px 0px 2px 0px;
+    font-size: 15px;
+}
+
+.right{
+    text-align: right;
+}
+
+#title{
+    font-weight: bold;
+}

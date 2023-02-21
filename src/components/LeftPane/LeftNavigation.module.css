@@ -1,0 +1,14 @@
+
+.container{
+    position: fixed;
+    height: 100%;
+    width: 501px;
+    background-color: #2F303A;
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+    justify-content: space-between;
+    align-items: center;
+    /* float: left; */
+
+}

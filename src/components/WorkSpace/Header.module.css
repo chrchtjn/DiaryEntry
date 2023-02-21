@@ -1,0 +1,15 @@
+.headContainer{
+    position: fixed;
+    background-color: #d9d9d9;
+    justify-content: space-between;
+    display: flex;
+    margin-left: 499px;
+    height: 10.1%;
+    width: 942px;
+    padding: 20px 35px 20px 20px;
+    border: solid;
+    border-width: 1px;
+    border-color: black;
+    z-index: 10;
+
+}
