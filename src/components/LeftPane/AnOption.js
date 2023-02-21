@@ -1,15 +1,17 @@
+import styles from "./AnOption.module.css";
 
-import styles from "./AnOption.module.css"
+export default function AnOption(props) {
+  const clickHandler = (e) => {
+    props.onSelect(e.target.alt);
+  };
 
-
-
-export default function AnOption(props){
-
-    const {name} = props;
-    return(
-        <div className={styles["container"]}>
-           <img src={name} alt="s"/>
-        </div>
-    )
-    
+  return (
+    <div
+      className={styles["container"]}
+      style={{ backgroundColor: props.selected === props.text ? "orange" : "" }}
+      onClick={clickHandler}
+    >
+      <img src={props.name} alt={props.text} />
+    </div>
+  );
 }
