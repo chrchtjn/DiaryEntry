@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/DiaryEntry/static/css/main.c7acb657.css",
+    "main.js": "/DiaryEntry/static/js/main.8df15bc5.js",
+    "static/js/787.1e5dc2cc.chunk.js": "/DiaryEntry/static/js/787.1e5dc2cc.chunk.js",
+    "static/media/man.png": "/DiaryEntry/static/media/man.eec3b5f9d0c6eb2f12de.png",
+    "static/media/Paperplane.png": "/DiaryEntry/static/media/Paperplane.a006d5b33c03aa3aab84.png",
+    "index.html": "/DiaryEntry/index.html",
+    "static/media/List.svg": "/DiaryEntry/static/media/List.18e917e4c9dd653b8deb17aa15907fa4.svg",
+    "static/media/calendar.svg": "/DiaryEntry/static/media/calendar.390b47a8a8f5c858859a6d794052bb01.svg",
+    "static/media/AddNew.svg": "/DiaryEntry/static/media/AddNew.d118f14944eb6a43e6299ec0d9a387e2.svg",
+    "static/media/Starred.svg": "/DiaryEntry/static/media/Starred.8c45f69b602ec02078543e72ad88e184.svg",
+    "static/media/Location.svg": "/DiaryEntry/static/media/Location.afa3f3d2a53e2d0464f0fc0551ef381e.svg",
+    "static/media/User.svg": "/DiaryEntry/static/media/User.c1332f8c34b4fe3330f3115c33558b52.svg",
+    "main.c7acb657.css.map": "/DiaryEntry/static/css/main.c7acb657.css.map",
+    "main.8df15bc5.js.map": "/DiaryEntry/static/js/main.8df15bc5.js.map",
+    "787.1e5dc2cc.chunk.js.map": "/DiaryEntry/static/js/787.1e5dc2cc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c7acb657.css",
+    "static/js/main.8df15bc5.js"
+  ]
+}
